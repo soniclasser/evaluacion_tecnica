@@ -11,4 +11,5 @@
 |
 */
 
+Route::post('/', 'VentaController@paginate')->name('home');
 Route::get('/', 'VentaController@paginate');
